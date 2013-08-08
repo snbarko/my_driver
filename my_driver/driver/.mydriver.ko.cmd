@@ -1,0 +1,1 @@
+cmd_/source/my_driver/driver/mydriver.ko := ld -r -m elf_i386 -T /usr/src/kernels/3.6.11-4.fc16.i686/scripts/module-common.lds --build-id  -o /source/my_driver/driver/mydriver.ko /source/my_driver/driver/mydriver.o /source/my_driver/driver/mydriver.mod.o

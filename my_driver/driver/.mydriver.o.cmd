@@ -1,0 +1,1 @@
+cmd_/source/my_driver/driver/mydriver.o := ld -m elf_i386   -r -o /source/my_driver/driver/mydriver.o /source/my_driver/driver/myd_init.o /source/my_driver/driver/myd_ioctl.o /source/my_driver/driver/myd_device.o /source/my_driver/driver/myd_proc.o /source/my_driver/driver/myd_mem.o /source/my_driver/driver/myd_ioctl_hlpr.o 
