@@ -1,1 +1,0 @@
-cmd_/mnt/snehasish/my_driver/driver/mydriver.ko.unsigned := ld -r -m elf_x86_64 -T /usr/src/kernels/2.6.32-279.el6.ami2.x86_64/scripts/module-common.lds --build-id -o /mnt/snehasish/my_driver/driver/mydriver.ko.unsigned /mnt/snehasish/my_driver/driver/mydriver.o /mnt/snehasish/my_driver/driver/mydriver.mod.o 

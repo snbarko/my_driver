@@ -26,3 +26,5 @@ clean:
 	@rm -f ./*.mod.*
 	@rm -f ./*.ko*
 	@rm -f ./Module*
+	@rm -f ./.*.cmd
+	@rm -rf ./.tmp*
